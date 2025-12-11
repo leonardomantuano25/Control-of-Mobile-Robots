@@ -1,0 +1,14 @@
+<package format="2">
+  <name>car_traj_ctrl</name>
+  <version>0.0.1</version>
+  <description>Trajectory tracking controller for car-like robot</description>
+
+  <maintainer email="leonardomantuano25@gmail.com">Student</maintainer>
+  <license>MIT</license>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+</package>

@@ -1,0 +1,6 @@
+<launch>
+    <rosparam file="$(find car_traj_ctrl)/config/ctrl_params.yaml" command="load"/>
+
+    <node pkg="car_simulator" type="car_sim_node" name="car_sim"/>
+    <node pkg="car_traj_ctrl" type="traj_ctrl_node" name="traj_ctrl"/>
+</launch>

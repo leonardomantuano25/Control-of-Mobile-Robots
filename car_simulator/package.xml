@@ -1,0 +1,15 @@
+<package format="2">
+  <name>car_simulator</name>
+  <version>0.0.1</version>
+  <description>Single-track car simulator using Boost Odeint</description>
+
+  <maintainer email="leonardomantuano25@gmail.com">Student</maintainer>
+  <license>MIT</license>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+</package>
